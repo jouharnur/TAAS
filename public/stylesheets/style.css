@@ -1,0 +1,15 @@
+.thumbnail img {
+    max-height: 150px;
+}
+.thumbnail .description{
+    color: #7f7f7f;
+}
+
+.thumbnail {
+   
+        border:10;
+        box-shadow:2;
+        border-radius:2;
+        border-color: black;
+   
+}
