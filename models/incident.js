@@ -6,8 +6,8 @@ var schema=new Schema({
     severity:{type:String,required:true},
     death:{type:Number, required:true},
     imageapath:{type:String, required:false},
-    injury:{type:Number, required:true}
-
+    injury:{type:Number, required:true},
+    lng:{type: Number, required:false}
 });
 
 module.exports=mongoose.model('incident',schema);
