@@ -7,7 +7,8 @@ var schema=new Schema({
     death:{type:Number, required:true},
     imageapath:{type:String, required:false},
     injury:{type:Number, required:true},
-    lng:{type: Number, required:false}
+    lng:{type: Number, required:false},
+    lat:{type:Number, required: true}
 });
 
 module.exports=mongoose.model('incident',schema);
